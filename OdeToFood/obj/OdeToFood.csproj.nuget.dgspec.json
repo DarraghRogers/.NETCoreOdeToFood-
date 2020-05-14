@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Pluralsight\\OdeToFood\\OdeToFood\\OdeToFood.csproj": {}
+    "C:\\Pluralsight\\OdeToFood\\OdeToFood\\OdeToFood.csproj": {}
   },
   "projects": {
-    "D:\\Pluralsight\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj": {
+    "C:\\Pluralsight\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Pluralsight\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj",
+        "projectUniqueName": "C:\\Pluralsight\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj",
         "projectName": "OdeToFood.Core",
-        "projectPath": "D:\\Pluralsight\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj",
+        "projectPath": "C:\\Pluralsight\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj",
         "packagesPath": "C:\\Users\\darra\\.nuget\\packages\\",
-        "outputPath": "D:\\Pluralsight\\OdeToFood\\OdeToFood.Core\\obj\\",
+        "outputPath": "C:\\Pluralsight\\OdeToFood\\OdeToFood.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -60,14 +60,14 @@
         }
       }
     },
-    "D:\\Pluralsight\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj": {
+    "C:\\Pluralsight\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Pluralsight\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj",
+        "projectUniqueName": "C:\\Pluralsight\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj",
         "projectName": "OdeToFood.Data",
-        "projectPath": "D:\\Pluralsight\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj",
+        "projectPath": "C:\\Pluralsight\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj",
         "packagesPath": "C:\\Users\\darra\\.nuget\\packages\\",
-        "outputPath": "D:\\Pluralsight\\OdeToFood\\OdeToFood.Data\\obj\\",
+        "outputPath": "C:\\Pluralsight\\OdeToFood\\OdeToFood.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -87,8 +87,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Pluralsight\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj": {
-                "projectPath": "D:\\Pluralsight\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj"
+              "C:\\Pluralsight\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj": {
+                "projectPath": "C:\\Pluralsight\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj"
               }
             }
           }
@@ -136,14 +136,14 @@
         }
       }
     },
-    "D:\\Pluralsight\\OdeToFood\\OdeToFood\\OdeToFood.csproj": {
+    "C:\\Pluralsight\\OdeToFood\\OdeToFood\\OdeToFood.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Pluralsight\\OdeToFood\\OdeToFood\\OdeToFood.csproj",
+        "projectUniqueName": "C:\\Pluralsight\\OdeToFood\\OdeToFood\\OdeToFood.csproj",
         "projectName": "OdeToFood",
-        "projectPath": "D:\\Pluralsight\\OdeToFood\\OdeToFood\\OdeToFood.csproj",
+        "projectPath": "C:\\Pluralsight\\OdeToFood\\OdeToFood\\OdeToFood.csproj",
         "packagesPath": "C:\\Users\\darra\\.nuget\\packages\\",
-        "outputPath": "D:\\Pluralsight\\OdeToFood\\OdeToFood\\obj\\",
+        "outputPath": "C:\\Pluralsight\\OdeToFood\\OdeToFood\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -163,8 +163,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Pluralsight\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj": {
-                "projectPath": "D:\\Pluralsight\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj"
+              "C:\\Pluralsight\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj": {
+                "projectPath": "C:\\Pluralsight\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj"
               }
             }
           }
@@ -197,6 +197,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.2, )"
+            },
+            "OdeToCode.UseNodeModules": {
+              "target": "Package",
+              "version": "[3.0.0, )"
             }
           },
           "imports": [

@@ -42,7 +42,8 @@ namespace OdeToFood
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app,
+            IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
@@ -57,6 +58,8 @@ namespace OdeToFood
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            //in asp.net core 3.1 there is no need for a variable in the UseNodeModules method
+            app.UseNodeModules();
             app.UseRouting();
             app.UseAuthorization();
 
