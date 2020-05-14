@@ -1,0 +1,29 @@
+﻿@page
+@model ListModel
+@{
+    ViewData["Title"] = "Restaurant";
+}
+
+<h1>Restaurants</h1>
+
+<form method="get">
+    <div class="form-group">
+        <div class="input-group">
+            <input type="search" class="form-control" asp-for="SearchTerm" /> @*no need to use Model.SearchTerm because there is already an instance of ListModel*@
+            <span class="input-group-prepend">
+                <button class="btn btn-primary">Search</button>
+            </span>
+        </div>
+    </div>
+</form>
+
+@*refer to pluralsight video "ASP.NET CORE Fundamental section 6 video Rendering partial views" for help undertanding code below*@
+@foreach (var restaurant in Model.Restaurants)
+{
+    <partial name="_Summary" model="restaurant" />
+}
+<a asp-page=".\Edit" class="btn btn-primary">Add New</a>
+
+@section footer{
+    <div>@Model.Message</div>
+}
